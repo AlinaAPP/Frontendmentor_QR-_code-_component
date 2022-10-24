@@ -1,0 +1,90 @@
+/* ------------ */
+/* Box sizing */
+/* ----------- */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+/* Reset margin and padding */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* set up the body */
+body {
+  font-size: 100%;
+  min-height: 100vh;
+}
+
+/* set up images */
+img,
+picture,
+svg {
+  max-width: 100%;
+  display: block;
+}
+
+/* links */
+a,
+a:visited,
+a:active {
+  text-decoration: none;
+}
+
+/* list item */
+li {
+  list-style-type: none;
+}
+
+body {
+  font-family: "Outfit", sans-serif;
+  font-size: 0.9375rem;
+  background-color: hsl(212deg, 45%, 89%);
+}
+
+.container {
+  min-height: 100vh;
+  margin-inline: auto;
+  width: min(100% - 2.5rem, 100%);
+  justify-content: center;
+  align-items: center;
+}
+
+.flex {
+  display: flex;
+  gap: var(--gap, 1rem);
+}
+
+.card {
+  padding: 1em 1em 2em;
+  background-color: hsl(0deg, 0%, 100%);
+  border-radius: 5%;
+  width: 18.75rem;
+}
+.card__header img {
+  border-radius: 5%;
+  margin-inline: auto;
+  aspect-ratio: 1;
+  width: 18.75rem;
+}
+.card__body {
+  text-align: center;
+  padding: 1.5em 0.5em 0;
+}
+.card__body > * {
+  color: hsl(220deg, 15%, 55%);
+}
+.card__body > *:first-child {
+  font-weight: 700;
+  font-size: 1.125rem;
+  padding-bottom: 1em;
+  padding-inline: 1em;
+  color: hsl(218deg, 44%, 22%);
+}
+
+.footer {
+  text-align: center;
+}/*# sourceMappingURL=style.css.map */
