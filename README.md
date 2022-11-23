@@ -1,3 +1,5 @@
+Link: https://alinaapp.github.io/Frontendmentor_QR-_code-_component/
+
 * Flexbox - to center the QR code component in the middle of the page.
 
 * SASS (SCSS) - for the design, SASS variables, SASS partials
