@@ -1,38 +1,34 @@
-@use '../utilities' as u;
+@use "../utilities" as u;
 
 .card {
+  padding: 1em 1em 2em;
+  background-color: u.$white;
+  border-radius: 5%;
+  width: u.pxToRem(300px);
 
-    padding: 1em 1em 2em;
-    background-color: u.$white;
-    border-radius: 5%;
-    width: u.pxToRem(300px);
-
-    &__header {
-
-        img {
-            border-radius: 5%;  
-            margin-inline: auto;
-            aspect-ratio: 1;
-            width: u.pxToRem(300px);
-        }
-        
+  &__header {
+    img {
+      border-radius: 5%;
+      margin-inline: auto;
+      aspect-ratio: 1;
+      width: u.pxToRem(300px);
     }
+  }
 
-    &__body {
-    text-align: center; 
-    padding: 1.5em .5em 0;
+  &__body {
+    text-align: center;
+    padding: 1.5em 0.5em 0;
 
-        & > * {
-            color: u.$grayishBlue;
+    & > * {
+      color: u.$grayishBlue;
 
-            &:first-child {
-                font-weight: 700;
-                font-size: u.pxToRem(18px);
-                padding-bottom: 1em;
-                padding-inline: 1em;
-                color: u.$darkBlue;
-        
-            }
-        }
+      &:first-child {
+        font-weight: 700;
+        font-size: u.pxToRem(18px);
+        padding-bottom: 1em;
+        padding-inline: 1em;
+        color: u.$darkBlue;
+      }
     }
+  }
 }

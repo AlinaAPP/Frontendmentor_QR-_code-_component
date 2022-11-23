@@ -1,19 +1,16 @@
-@use '../utilities' as u;
+@use "../utilities" as u;
 
 body {
-   
-    font-family: u.$font-family;
-    font-size: u.pxToRem(15px);
-    background-color: u.$lightGray;
-    
+  font-family: u.$font-family;
+  font-size: u.pxToRem(15px);
+  background-color: u.$lightGray;
 }
 
 .container {
-    min-height: 100vh;
-    margin-inline: auto;
-    width: min(100% - u.pxToRem(40px), 100%); 
+  min-height: 100vh;
+  margin-inline: auto;
+  width: min(100% - u.pxToRem(40px), 100%);
 
-    justify-content: center;
-    align-items: center;
-
+  justify-content: center;
+  align-items: center;
 }
